@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.calculator {
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: #3498db;
+    color: #ffffff;
+    font-size: 1.5rem;
+    border-bottom: none;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    font-size: 1.5rem;
+    margin: 3px;
+}
+
